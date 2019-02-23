@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>~ggiuanni | Digital Art Engineer</title>
     <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on ~ggiuanni | Digital Art Engineer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Feb 2019 11:50:51 +0100</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Ciao</title>
-      <link>http://example.org/ciao/</link>
-      <pubDate>Sat, 23 Feb 2019 11:50:51 +0100</pubDate>
-      
-      <guid>http://example.org/ciao/</guid>
-      <description>uè!</description>
-    </item>
     
   </channel>
 </rss>
