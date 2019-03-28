@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html><meta charset="utf-8">
+<html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
 <link rel="stylesheet" href="/css/icon-font.css">
 <link rel="stylesheet" type="text/css" href="/css/style.css">
-<script src="/js/index.js"></script><body>
+<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+<script src="/js/index.js"></script>
+
+<title>ggiuanni</title><body>
 
         <div class="navigation">
             <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
@@ -116,7 +121,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Most popular tours
@@ -151,7 +156,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">€297</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +188,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">€497</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +220,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">€897</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -351,6 +356,23 @@
                 </div>
             </div>
         </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-medium">Important &ndash; Please read these terms before booking</h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend fermentum lorem, vitae viverra nisl porta sit amet. Vestibulum pellentesque tellus nibh, congue lobortis augue venenatis dapibus. Ut at molestie orci. Donec vel dolor non erat vestibulum accumsan. Integer lobortis eget tortor eu feugiat. Etiam pharetra mi sodales dictum condimentum. Donec commodo lacinia diam, ut porttitor nunc placerat quis. Etiam massa dolor, egestas eu purus id, semper posuere eros. Phasellus velit dui, commodo sit amet turpis vitae, rutrum commodo justo. Aliquam vitae nisi id eros iaculis ullamcorper. Nullam ut faucibus purus. Vestibulum ante lectus, sollicitudin eget metus sit amet, viverra mollis dui. Sed auctor odio sit amet rhoncus varius. Nam luctus viverra nibh. Nulla feugiat aliquam tempus. Donec ultricies cursus sollicitudin. Duis tristique ultricies massa vitae pharetra. Aliquam vehicula maximus diam id posuere. Aliquam ultricies eu tortor eget lacinia. Quisque varius vulputate mauris sit amet fringilla.</p>
+                    <a href="#" class="btn btn--green">Book now</a>
+                </div>
+            </div>
+        </div>
 
 
 
