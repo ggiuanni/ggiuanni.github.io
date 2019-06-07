@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://ggiuanni.github.io/posts/firstpost/</loc>
+    <loc>https://ggiuanni.github.io/posts/firstpost/</loc>
     <lastmod>2019-02-23T14:38:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ggiuanni.github.io/posts/</loc>
-    <lastmod>2019-02-23T14:38:02+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ggiuanni.github.io/</loc>
+    <loc>https://ggiuanni.github.io/posts/</loc>
     <lastmod>2019-02-23T14:38:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ggiuanni.github.io/categories/</loc>
+    <loc>https://ggiuanni.github.io/</loc>
+    <lastmod>2019-02-23T14:38:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ggiuanni.github.io/tags/</loc>
+    <loc>https://ggiuanni.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ggiuanni.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
