@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ~ggiuanni | Digital Art Engineer</title>
+    <title>Posts on ggiuanni - Digital Art Engineer</title>
     <link>https://ggiuanni.github.io/posts/</link>
-    <description>Recent content in Posts on ~ggiuanni | Digital Art Engineer</description>
+    <description>Recent content in Posts on ggiuanni - Digital Art Engineer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Feb 2019 14:38:02 +0100</lastBuildDate>
@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>First Post</title>
+      <title>Una fungia curiosa</title>
       <link>https://ggiuanni.github.io/posts/firstpost/</link>
       <pubDate>Sat, 23 Feb 2019 14:38:02 +0100</pubDate>
       
       <guid>https://ggiuanni.github.io/posts/firstpost/</guid>
-      <description>uèlcom!!!</description>
+      <description></description>
     </item>
     
   </channel>
