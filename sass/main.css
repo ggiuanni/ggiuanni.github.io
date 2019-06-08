@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 125%;
+  font-family: Bitter; }
+
+.title {
+  margin-bottom: 1rem; }
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px #263238; }
+  .card-thumbnail {
+    background-size: cover;
+    background-position: center;
+    height: 13rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+  .card-title {
+    padding: 1rem 1rem 0 1rem; }
+  .card-subtitle {
+    font-size: 0.9rem;
+    padding: 1rem; }
+  .card-summary {
+    padding: 0 1rem 1rem 1rem; }
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem; }
+
+.main-list {
+  margin-top: 2rem; }
+
+.header {
+  display: flex;
+  padding: 1rem;
+  grid-row: 1;
+  background-color: #1a237e;
+  box-shadow: 0px 1px 10px #000;
+  z-index: 1; }
+  .header > span {
+    color: #fff; }
+  .header-label {
+    margin-right: 1rem;
+    color: #fff; }
+  .header-checkbox:checked ~ .header-label {
+    color: blue; }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      font-size: 0.9rem; } }
+
+.checkbox {
+  display: none; }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-template-rows: 3rem auto;
+  height: 100vh; }
+  .wrapper > * {
+    grid-column: col-start / span 12; }
+  .wrapper .checkbox:checked ~ .drawer {
+    transform: translate(0); }
+
+.drawer {
+  grid-column: col-start / span 2;
+  grid-row: 2;
+  padding: 1rem;
+  background-color: #263238;
+  color: #fff; }
+  @media only screen and (max-width: 37.5em) {
+    .drawer {
+      grid-column: col-start / span 11;
+      transform: translate(-100%);
+      z-index: 1;
+      transition: transform 0.5s; } }
+  .drawer-img > img {
+    width: 80%;
+    display: block;
+    margin: 0 auto 1rem auto;
+    border-radius: 50%;
+    border: 10px solid #d81b60;
+    box-shadow: 0 5px 10px #000; }
+  .drawer > span {
+    display: block; }
+  .drawer-title {
+    margin-bottom: 0.1rem; }
+  .drawer-subtitle {
+    font-size: 0.8rem; }
+
+.content {
+  grid-column: col-start 3 / span 10;
+  grid-row: 2;
+  overflow: auto; }
+  @media only screen and (max-width: 37.5em) {
+    .content {
+      grid-column: col-start / span 12; } }
+
+.footer {
+  height: 10rem;
+  border-top: 1px solid #263238; }
+
+.postgrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem; }
+  @media only screen and (max-width: 37.5em) {
+    .postgrid {
+      grid-template-columns: repeat(1, 1fr); } }
