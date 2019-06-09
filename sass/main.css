@@ -67,7 +67,8 @@ html {
   .wrapper > * {
     grid-column: col-start / span 12; }
   .wrapper .checkbox:checked ~ .drawer {
-    transform: translate(0); }
+    transform: translate(0);
+    z-index: 1; }
 
 .drawer {
   grid-column: col-start / span 2;
@@ -79,8 +80,8 @@ html {
     .drawer {
       grid-column: col-start / span 11;
       transform: translate(-100%);
-      z-index: 1;
-      transition: transform 0.5s; } }
+      z-index: -1;
+      transition: all 0.5s; } }
   .drawer-img > img {
     width: 80%;
     display: block;
