@@ -49,7 +49,11 @@ html {
     color: #fff; }
   .header-label {
     margin-right: 1rem;
-    color: #fff; }
+    color: #fff;
+    display: none; }
+    @media only screen and (max-width: 37.5em) {
+      .header-label {
+        display: inherit; } }
   .header-checkbox:checked ~ .header-label {
     color: blue; }
   @media only screen and (max-width: 37.5em) {
@@ -67,7 +71,7 @@ html {
   .wrapper > * {
     grid-column: col-start / span 12; }
   .wrapper .checkbox:checked ~ .drawer {
-    transform: translate(0);
+    transform: translate(100%);
     z-index: 1; }
 
 .drawer {
@@ -79,7 +83,9 @@ html {
   @media only screen and (max-width: 37.5em) {
     .drawer {
       grid-column: col-start / span 11;
-      transform: translate(-100%);
+      position: relative;
+      left: -100%;
+      transform: translate(0%);
       z-index: -1;
       transition: all 0.5s; } }
   .drawer-img > img {
