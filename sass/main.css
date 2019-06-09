@@ -13,6 +13,10 @@ html {
 .title {
   margin-bottom: 1rem; }
 
+a {
+  text-decoration: none;
+  color: #000; }
+
 .card {
   border-radius: 5px;
   box-shadow: 0px 3px 5px #263238; }
@@ -23,6 +27,8 @@ html {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px; }
   .card-title {
+    color: #d81b60;
+    text-shadow: 1px 1px 1px #1a237e;
     padding: 1rem 1rem 0 1rem; }
   .card-subtitle {
     font-size: 0.9rem;
@@ -37,6 +43,45 @@ html {
 
 .main-list {
   margin-top: 2rem; }
+
+.post {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem; }
+  .post-img {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%; }
+  .post-content p {
+    margin: 1rem 0; }
+  .post-content blockquote {
+    margin-left: 1rem;
+    font-style: italic; }
+  .post-content img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; }
+  .post-content table {
+    margin: 1rem 0;
+    border-spacing: 0; }
+    .post-content table th {
+      background-color: #d81b60;
+      color: #fff; }
+    .post-content table th, .post-content table td {
+      border: 1px #ff5c8d solid;
+      border-collapse: collapse;
+      padding: 0.5rem; }
+  .post-content a {
+    color: #d81b60;
+    text-decoration: underline; }
+    .post-content a:hover {
+      color: #1a237e; }
+  .post-content ul, .post-content ol {
+    margin: 1rem 0;
+    list-style-position: inside; }
+  .post-content code {
+    font-size: 1.25rem;
+    background-color: #ddd; }
 
 .header {
   display: flex;
