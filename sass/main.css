@@ -69,7 +69,7 @@ a {
     .splash {
       height: 70vh;
       margin-bottom: 0rem; } }
-  .splash h1 {
+  .splash .logline {
     color: white;
     position: absolute;
     left: 10%;
@@ -78,26 +78,33 @@ a {
     font-weight: 400;
     z-index: 3; }
     @media only screen and (max-width: 37.5em) {
-      .splash h1 {
+      .splash .logline {
         font-size: 2rem;
         left: 0;
         margin: 1rem; } }
-  .splash img {
+  .splash .profile {
     height: 95vh;
     position: absolute;
     top: -3rem;
     right: 0rem;
     z-index: 2; }
     @media only screen and (max-width: 37.5em) {
-      .splash img {
+      .splash .profile {
         mix-blend-mode: multiply;
         bottom: 0;
         top: auto;
         height: 100%;
         width: 100%; } }
   .splash-mini {
-    height: 40vh;
+    height: 30vh;
     margin-bottom: -2rem; }
+    .splash-mini .title {
+      display: block;
+      max-width: 900px;
+      margin: 0 auto;
+      padding-top: 15vh;
+      font-size: 4rem;
+      color: white; }
 
 .main-content {
   max-width: 1200px;
@@ -240,3 +247,8 @@ a {
   @media only screen and (max-width: 37.5em) {
     .postgrid {
       grid-template-columns: repeat(1, 1fr); } }
+
+.quote p {
+  font-size: 1.4rem; }
+  .quote p a {
+    font-size: 1rem; }
