@@ -9,6 +9,9 @@
 html {
   font-size: 125%;
   font-family: Bitter; }
+  @media only screen and (max-width: 37.5em) {
+    html {
+      font-size: 100%; } }
 
 ::selection {
   background: #d21e84;
@@ -125,7 +128,8 @@ pre {
   max-width: 900px;
   margin: 0rem auto; }
   .post-header h1 {
-    margin-top: 0; }
+    margin-top: 0;
+    margin-bottom: 0; }
   .post-header h2 {
     margin-top: 1rem;
     padding: 0 2rem;
@@ -136,29 +140,13 @@ pre {
     .post-meta a {
       text-decoration: underline; }
       .post-meta a:hover {
-        text-decoration: none;
-        color: #d21e84; }
+        text-decoration: none; }
   .post-img {
     display: block;
     margin: 2rem auto;
     max-width: 100%; }
   .post-content {
     line-height: 1.5rem; }
-    .post-content .rwd-video {
-      margin: 1rem 0;
-      height: 0;
-      overflow: hidden;
-      padding-bottom: 56.25%;
-      padding-top: 30px;
-      position: relative; }
-      .post-content .rwd-video iframe,
-      .post-content .rwd-video object,
-      .post-content .rwd-video embed {
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%; }
 
 .about-img {
   width: 250px;
@@ -213,17 +201,38 @@ pre {
   .splash .logline {
     position: absolute;
     top: 22vh;
-    left: 8vw; }
+    left: 8vw;
+    right: 8vw; }
+    .splash .logline .mobile-capo {
+      display: none; }
+      @media only screen and (max-width: 37.5em) {
+        .splash .logline .mobile-capo {
+          display: inherit; } }
     .splash .logline h1 {
       font-size: 2.5rem;
       font-weight: 400;
       color: white;
       text-shadow: 4px 2px 0 #d21e84; }
+      @media only screen and (max-width: 37.5em) {
+        .splash .logline h1 {
+          font-size: 1.5rem; }
+          .splash .logline h1 strong {
+            font-size: 1.8rem; }
+          .splash .logline h1 em {
+            font-size: 2rem; } }
   .splash img {
     position: absolute;
     height: 95%;
     top: 0;
     right: -3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .splash img {
+        opacity: 20%;
+        width: 151vw;
+        height: auto;
+        right: -339px;
+        top: auto;
+        bottom: 10vh; } }
   .splash-mini {
     background-color: #d21e84;
     height: 50vh;
@@ -250,7 +259,7 @@ pre {
   margin-bottom: 2rem; }
   @media only screen and (max-width: 37.5em) {
     .content {
-      grid-column: col-start / span 12; } }
+      grid-column: 2 / 12; } }
 
 .footer {
   grid-row: 3;
