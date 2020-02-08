@@ -112,7 +112,8 @@ pre {
     color: #d21e84;
     padding: 0 1rem; }
     .card-title h1 {
-      margin-top: 1rem; }
+      margin-top: 1rem;
+      margin-bottom: 0; }
   .card-meta {
     font-size: 0.8rem;
     color: #88014d;
