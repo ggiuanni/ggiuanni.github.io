@@ -126,7 +126,6 @@ pre {
     padding: 0 1rem 1rem 1rem; }
 
 .flex-wrapper {
-  margin-top: 2rem;
   display: flex;
   flex-flow: row nowrap; }
 
