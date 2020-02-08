@@ -204,6 +204,9 @@ pre {
   .post-content {
     line-height: 1.5rem; }
 
+.about {
+  margin: 2rem 0; }
+
 .about-img {
   width: 250px;
   margin-top: -8rem;
@@ -214,6 +217,13 @@ pre {
   border: 1rem solid white;
   border-radius: 0.5rem;
   float: right; }
+  @media only screen and (max-width: 37.5em) {
+    .about-img {
+      width: 100px;
+      border: 0.5rem solid white;
+      margin-top: -1rem;
+      margin-right: 2rem;
+      margin-left: 1rem; } }
 
 .wrapper {
   display: grid;
@@ -294,6 +304,9 @@ pre {
     height: 50vh;
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr); }
+    @media only screen and (max-width: 37.5em) {
+      .splash-mini {
+        height: 30vh; } }
     .splash-mini .site {
       grid-row: 1;
       grid-column: 1 / 13;
