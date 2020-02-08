@@ -124,6 +124,56 @@ pre {
   .card-summary {
     padding: 0 1rem 1rem 1rem; }
 
+.flex-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: row nowrap; }
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around; }
+  .single-chart span {
+    font-size: 1.3rem; }
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px; }
+
+.circle-bg {
+  fill: none;
+  stroke: #ed4aa7;
+  opacity: 0.5;
+  stroke-width: 0.5; }
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards; }
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100; } }
+
+.circular-chart.orange .circle {
+  stroke: #ff9f00; }
+
+.circular-chart.green .circle {
+  stroke: #4CC790; }
+
+.circular-chart.blue .circle {
+  stroke: #3c9ee5; }
+
+.circular-chart.pink .circle {
+  stroke: #d21e84; }
+
+.percentage {
+  fill: #666;
+  font-size: 0.5em;
+  text-anchor: middle; }
+
 .post {
   max-width: 900px;
   margin: 0rem auto; }
@@ -264,9 +314,10 @@ pre {
 .footer {
   grid-row: 3;
   height: 10rem;
-  border-top: 1px solid #d21e84; }
+  border-top: 5px solid #d21e84; }
 
 .postgrid {
+  margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem; }
