@@ -321,14 +321,27 @@ pre {
   grid-template-columns: repeat(12, [col-start] 1fr);
   grid-template-rows: auto; }
   .footer-content {
-    font-size: 70%;
+    font-size: 80%;
     grid-row: 1;
     grid-column: 3 / 11;
     display: flex;
     flex-wrap: wrap; }
   .footer-item {
+    flex-basis: 0;
     flex-grow: 1; }
+    .footer-item .social {
+      font-size: 1rem;
+      word-spacing: 0.5rem; }
+      .footer-item .social a {
+        color: white; }
+        .footer-item .social a:hover {
+          background-color: unset; }
+        .footer-item .social a svg:hover {
+          color: #d21e84; }
+        .footer-item .social a svg:active {
+          color: #ed4aa7; }
   .footer-item-fill {
+    font-size: 70%;
     text-align: center;
     margin: 2rem 0;
     flex-basis: 100%; }
