@@ -127,14 +127,19 @@ pre {
 
 .flex-wrapper {
   display: flex;
-  flex-flow: row nowrap; }
+  flex-flow: row wrap;
+  justify-content: space-evenly; }
 
 .single-chart {
-  width: 33%;
-  justify-content: space-around;
-  margin: 0 4rem; }
+  flex-basis: 15rem; }
+  @media only screen and (max-width: 37.5em) {
+    .single-chart {
+      flex-basis: 9rem; } }
   .single-chart span {
     font-size: 1.3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .single-chart span {
+        font-size: 1rem; } }
 
 .circular-chart {
   display: block;
