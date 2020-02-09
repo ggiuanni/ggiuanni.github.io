@@ -210,6 +210,12 @@ pre {
       .cvlist-item-description li {
         margin-bottom: 0.4rem; }
 
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 5rem; }
+
 .post {
   max-width: 900px;
   margin: 0rem auto; }
@@ -235,7 +241,7 @@ pre {
     line-height: 1.5rem; }
 
 .about {
-  margin: 2rem 0; }
+  margin: 2rem 0 0 0; }
 
 .about-img {
   width: 250px;
@@ -251,7 +257,7 @@ pre {
     .about-img {
       width: 100px;
       border: 0.5rem solid white;
-      margin-top: -1rem;
+      margin-top: -0.5rem;
       margin-right: 2rem;
       margin-left: 1rem; } }
 
@@ -353,8 +359,7 @@ pre {
 
 .content {
   grid-row: 2;
-  grid-column: 3 / 11;
-  margin-bottom: 2rem; }
+  grid-column: 3 / 11; }
   @media only screen and (max-width: 37.5em) {
     .content {
       grid-column: 2 / 12; } }
