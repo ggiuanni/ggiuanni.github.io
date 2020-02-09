@@ -191,7 +191,7 @@ pre {
     box-shadow: 0px 3px 5px #ddd;
     padding: 1rem;
     margin: 0 0.8rem 0.8rem 0.8rem;
-    flex-basis: 50%;
+    flex-basis: 40%;
     flex-grow: 1; }
     @media only screen and (max-width: 37.5em) {
       .cvlist-item {
