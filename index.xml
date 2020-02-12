@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ggiuanni&#39;s Portfolio on ggiuanni</title>
+    <title>Welcome on Giovanni Cassone</title>
     <link>https://ggiuanni.github.io/</link>
-    <description>Recent content in ggiuanni&#39;s Portfolio on ggiuanni</description>
+    <description>Recent content in Welcome on Giovanni Cassone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Jun 2019 09:21:56 +0200</lastBuildDate>
@@ -12,14 +12,26 @@
     
     
     <item>
+      <title>Revenge of the Flies</title>
+      <link>https://ggiuanni.github.io/posts/revenge-of-the-flies/</link>
+      <pubDate>Wed, 12 Feb 2020 19:16:38 +0100</pubDate>
+      
+      <guid>https://ggiuanni.github.io/posts/revenge-of-the-flies/</guid>
+      <description>A SciFi short film in which a swarm of flies goes to a programmer house in search of revenge. This short film is made for the special effects course during my M.Sc. in Cinema and media engineering.
+I was involed in this project as VFX Artist and Particle animator.
+Technologies involved:
+ Maya: Particles animation Bender: Flies modeling and animation AfterEffects: Compositing and camera matchmoving DaVinci Resolve: Editing and Color Grading  Here&amp;rsquo;s the short:   Crew:</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://ggiuanni.github.io/about/</link>
       <pubDate>Tue, 29 Oct 2019 19:42:50 +0100</pubDate>
       
       <guid>https://ggiuanni.github.io/about/</guid>
-      <description>Sangue calabrese e anima cosmopolita, cresco con una formazione tecnica consolidata in ambiente universitario studiando Ingegneria dell&amp;rsquo;Informazione e Ingegneria del Cinema e dei Mezzi di Comunicazione.
-Non mancano però lungo il percorso innumerevoli stimoli ed ispirazioni di natura artistica, al punto che ho deciso di unire queste due anime scegliendo di diventare un Technical Artist.
-Ciò che faccio è dedicarmi dunque alla creazione di strumenti che attraverso tecnologie digitali permettono agli artisti di esprimere al meglio il loro potenziale.</description>
+      <description>Calabrian blood and cosmopolitan soul, I grow up with a consolidated technical training in university environment studying Information Engineering and Cinema and Media Engineering.
+There are, however, innumerable stimuli and inspirations of an artistic nature along the way, to the point that I decided to join these two souls by choosing to become a Technical Artist.
+What I do is therefore dedicate myself to the creation of tools that through digital technologies allow artists to best express their potential.</description>
     </item>
     
   </channel>

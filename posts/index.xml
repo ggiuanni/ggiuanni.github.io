@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ggiuanni</title>
+    <title>Posts on Giovanni Cassone</title>
     <link>https://ggiuanni.github.io/posts/</link>
-    <description>Recent content in Posts on ggiuanni</description>
+    <description>Recent content in Posts on Giovanni Cassone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jun 2019 14:38:02 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2020 19:16:38 +0100</lastBuildDate>
     
 	<atom:link href="https://ggiuanni.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Una fungia curiosa</title>
-      <link>https://ggiuanni.github.io/posts/una-fungia-curiosa/</link>
-      <pubDate>Mon, 10 Jun 2019 14:38:02 +0100</pubDate>
+      <title>Revenge of the Flies</title>
+      <link>https://ggiuanni.github.io/posts/revenge-of-the-flies/</link>
+      <pubDate>Wed, 12 Feb 2020 19:16:38 +0100</pubDate>
       
-      <guid>https://ggiuanni.github.io/posts/una-fungia-curiosa/</guid>
-      <description> &amp;quot;This isn’t hard to understand. It’s just hard to do.&amp;rdquo; Ayodeji Awosika
- </description>
+      <guid>https://ggiuanni.github.io/posts/revenge-of-the-flies/</guid>
+      <description>A SciFi short film in which a swarm of flies goes to a programmer house in search of revenge. This short film is made for the special effects course during my M.Sc. in Cinema and media engineering.
+I was involed in this project as VFX Artist and Particle animator.
+Technologies involved:
+ Maya: Particles animation Bender: Flies modeling and animation AfterEffects: Compositing and camera matchmoving DaVinci Resolve: Editing and Color Grading  Here&amp;rsquo;s the short:   Crew:</description>
     </item>
     
   </channel>
