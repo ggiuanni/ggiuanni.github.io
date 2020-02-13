@@ -6,10 +6,23 @@
     <description>Recent content in Posts on Giovanni Cassone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Feb 2020 19:16:38 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2020 20:01:05 +0100</lastBuildDate>
     
 	<atom:link href="https://ggiuanni.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Choose for Me</title>
+      <link>https://ggiuanni.github.io/posts/choose-for-me/</link>
+      <pubDate>Thu, 13 Feb 2020 20:01:05 +0100</pubDate>
+      
+      <guid>https://ggiuanni.github.io/posts/choose-for-me/</guid>
+      <description>A Puzzle Drama game that will take you on a journey in the Mads Ever mind, between visual suggestions and emotional moments. Project trailer made by uut Games indie game studio.
+This game is still in development, but can be already added to the Steam wishlist here.
+I was involved in this project as 3D Artist, Material Designer, Audio &amp;amp; Video Editor and Cut Scenes Director.
+Technologies involved:
+ Unreal Engine: Render Engine, Cut-scene editing and animating Bender: Modeling and uv atlasing  Here&amp;rsquo;s the project trailer:   </description>
+    </item>
     
     <item>
       <title>Revenge of the Flies</title>
